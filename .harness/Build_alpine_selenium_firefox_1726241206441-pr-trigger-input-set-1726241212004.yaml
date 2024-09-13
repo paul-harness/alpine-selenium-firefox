@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_alpine_selenium_firefox_1726241206441-pr-trigger-input-set
+  identifier: Build_alpine_selenium_firefox_1726241206441prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Platform_Demo
+  pipeline:
+    identifier: Build_alpine_selenium_firefox_1726241206441
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
